@@ -43,3 +43,5 @@ jobs:
       run: | 
          cd android 
          fastlane android deploy
+      env: 
+      ENVFILE: ${{secrets.ENVFILE}}   
