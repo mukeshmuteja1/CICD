@@ -44,4 +44,4 @@ jobs:
          cd android 
          fastlane android deploy
       env: 
-        ENVFILE: .env.Dev   
+        ENVFILE: ".env.Dev"  
