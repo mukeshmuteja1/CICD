@@ -27,6 +27,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 16.13.2
+    
+    - uses: actions/setup-ruby@v1 
+      with: 
+        ruby-version: '3.x' 
 
     - name: Install packages 
       run: | 
